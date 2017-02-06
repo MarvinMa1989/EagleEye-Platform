@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0aef616f-48f7-4074-9b72-9fca6292ee61}</ProjectGuid>
     <ProjectHome />
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <StartupFile>app.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -38,7 +38,7 @@
     <Compile Include="modules\chart-sets.js" />
     <Compile Include="modules\chart-types.js" />
     <Compile Include="modules\charts.js" />
-    <Compile Include="modules\etl.js" />
+    <Compile Include="modules\data-table.js" />
     <Compile Include="modules\excel.js" />
     <Compile Include="modules\scheduleJobLogModule.js" />
     <Compile Include="modules\scheduleJobModule.js" />
@@ -47,13 +47,11 @@
     <Compile Include="routes\chart-sets.js" />
     <Compile Include="routes\charts.js" />
     <Compile Include="routes\download.js" />
-    <Compile Include="routes\etl.js" />
     <Compile Include="routes\jobs.js" />
     <Compile Include="routes\root-endpoint.js" />
     <Compile Include="routes\schedule-management.js" />
     <Compile Include="routes\search.js" />
     <Compile Include="routes\tasks.js" />
-    <Compile Include="routes\upload.js" />
     <Compile Include="tests\helpers\db.spec.js" />
     <Compile Include="tests\helpers\utils.spec.js" />
     <Compile Include="tests\routes\charts.spec.js" />
